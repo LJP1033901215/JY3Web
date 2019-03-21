@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			@-webkit-keyframes shouji/*名称*/{
+				0%{0000
+					background:#7FFF00;width: 20px; height: 153px;border-radius: 10px;
+				}
+				20%{
+					background:#7FFF00;width: 62.5px; height: 153px;border-radius: 10px;
+				}
+				40%{
+					background:#7FFF00;width: 125px; height: 153px;border-radius: 10px;
+				}
+				60%{
+					background:#7FFF00;width: 187.5px; height: 153px;border-radius: 10px;
+				}
+				80%{
+					background:#7FFF00;width: 255px; height: 153px;border-radius: 10px;
+				}
+				100%{
+					background:#7FFF00;width: 255px; height: 153px;border-radius: 10px;
+				}
+			}
+			#div1
+			{
+				width: 20px;
+				height: 150px;
+				background-color: #7FFF00;
+				border-radius: 10px;
+				/*border: 2px solid black;*/
+				/*border-radius: 0px 50px 50px 0px;*/
+				animation: shouji 3s /*绑定选择器*/linear /*匀速*/infinite/*循环*/ /*alternate*//*逆向运行*/;
+			}
+			#div2
+			{
+				width:250px;
+				height: 150px;
+				border: 2px solid black;
+				border-radius: 10px;
+				color: #FAFAFA;
+			/*	position: absolute;*/
+				/*font-size: 30px;*/
+				text-align: center;
+				/*margin-top: 40px;*/
+				line-height: 145px;
+			}
+			span
+			{
+				font-size: 30px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div1">
+			<div id="div2"><span>充  电  中  </span></div>
+		</div>
+	</body>
+</html>
