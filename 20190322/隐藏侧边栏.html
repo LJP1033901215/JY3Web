@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>隐藏侧边框</title>
+		<style>
+			*
+			{
+				margin: 0;
+				padding: 0;
+			}
+			body
+			{
+				width: 100%;
+				height: 100%;
+				position: fixed;
+			}
+			#div1
+			{
+				width:100%;
+				height: 100%;
+				background-color: #FF0000;
+				transition: all 2s;
+				position: absolute;
+				z-index: 1;
+			}
+			#div2
+			{
+				width: 100%;
+				height: 100%;
+				background-color: #00FFFF;
+				position: absolute;
+				top: 0px;
+				z-index: 0;
+			}
+			input
+			{
+				width: 90px;
+				height: 45px;
+			}
+			.div3
+			{
+				transform: translate(200px);
+			}
+			a
+			{
+				text-decoration: none;
+				color: #FAFAFA;
+				font-size: 30px;
+			}
+			ul li
+			{
+				text-indent: 70px;
+				margin-top: 30px;
+			}
+		</style>
+		<script src="../../js/jquery.js"></script>
+	</head>
+	<body>
+		<div id="div1">
+			<form>
+				<input  type="button" value="弹出" id="input1"/>
+			</form>
+		</div>
+		<div id="div2">
+			<ul>
+				<li><a href="www.baidu.com">百    度</a></li>
+				<li><a href="www.baidu.com">百    度</a></li>
+				<li><a href="www.baidu.com">百    度</a></li>
+				<li><a href="www.baidu.com">百    度</a></li>
+				<li><a href="www.baidu.com">百    度</a></li>
+			</ul>
+		</div>
+	</body>
+	<script>
+		$(function(){
+			$("#input1").click(function(){
+				$("#div1").toggleClass("div3")
+			})
+		})
+	</script>
+</html>
