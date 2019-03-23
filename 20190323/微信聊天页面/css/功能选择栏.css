@@ -1,0 +1,31 @@
+#div5/*微信底部背景*/
+{
+	width: 100%;
+	height: 60px;
+	background-color: whitesmoke;
+	display: flex;
+}
+.div5-1/*微信底部的小方块,各占25%*/
+{
+	width: 25%;
+	height: 65px;
+/*	background-color: #202020;*/
+	display: flex;
+	justify-content: center;/*水平居中*/
+}
+.div5-1-1/*小方块内的元素*/
+{
+	display: flex;
+	flex-direction:column/*垂直分布-主轴在垂直*/
+}
+.div5-1-1 img/*小方块内的图片*/
+{
+	height: 38px;
+}
+.div5-1-1 span/*小方块内的文字*/
+{
+	color: black;
+	text-align: center;/*文字居中*/
+	/*font-weight: bold;字体加粗-不需要*/
+	font-size: 13px;
+}

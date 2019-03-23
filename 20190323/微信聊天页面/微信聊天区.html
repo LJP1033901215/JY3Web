@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+		<title>微信聊天区</title>
+		<link rel="stylesheet" type="text/css" href="css/信号栏.css"/>
+		<link rel="stylesheet" type="text/css" href="css/标题栏.css"/>
+		<link rel="stylesheet" type="text/css" href="css/功能选择栏.css"/>
+		<link rel="stylesheet" type="text/css" href="css/微信总体.css"/>
+		<link rel="stylesheet" type="text/css" href="css/聊天内容栏.css"/>
+		<script type="text/javascript" src="js/jquery.js" ></script>
+	</head>
+	<body>
+		<div id="div1">
+			<div id="div9">
+				
+			</div>
+			<div id="div2"><!--电池栏-->
+				<div id="div2-1">
+					<div class="div2-1-1"></div>
+					<div class="div2-1-1"></div>
+					<div class="div2-1-2"></div>
+					<div class="div2-1-2"></div>
+					<div class="div2-1-2"></div>
+					<div><span>中国移动</span></div>
+					<img src="img/wifi.svg">
+				</div>
+				<div id="div2-2">
+					<span>11:48</span></div>
+				<div id="div2-3">
+					<div class="div2-3-1">
+						<img src="img/锁.svg"/></div>
+					<div class="div2-3-1">
+						<img src="img/指南.svg"/></div>
+					<div class="div2-3-1">
+						<img src="img/蓝牙.svg"/></div>
+					<div class="div2-3-1">
+						<img src="img/电池.svg"/></div>
+				</div>
+			</div>
+			<div id="div3"><!--微信标题栏-->
+				<div id="div3-1"><span>微信(1)</span></div>
+				<div id="div3-2">
+					<div id="div3-2-1"><img src="img/搜索.svg"/></div>
+					<div id="div3-2-2"><img src="img/加号.svg" / id="img1"></div>
+				</div>
+			</div>
+			<div id="div4"><!--聊天栏-->
+				<div class="div4-1">
+					<div class="div4-1-1">
+							<img src="img/微信图片1.jpg"/>
+					</div>
+					<div class="div4-1-2">
+						<div id="div4-1-2-1"><h3>木子李</h3></div>
+						<div id="div4-1-2-2"><span>今天天气不错啊，要不要出去约?</span></div>
+					</div>
+					<div class="div4-1-3"><span>11:45</span></div>
+				</div>
+			</div>
+			<div id="div5"><!--底部导航栏-->
+				<div class="div5-1">
+					<div class="div5-1-1">
+						<img src="img/微信信息.svg"/><span>微信</span>
+					</div>
+				</div>
+				<div class="div5-1">
+					<div class="div5-1-1">
+						<img src="img/通讯录.svg"/><span>通讯录</span>
+					</div>
+				</div>
+				<div class="div5-1">
+					<div class="div5-1-1">
+						<img src="img/发现.svg"/><span>发现</span>
+					</div>
+				</div>
+				<div class="div5-1">
+					<div class="div5-1-1">
+						<img src="img/我.svg"/><span>我</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+		$(function(){
+			$("#img1").click(function(){
+				$("#div9").toggle(500)
+			})
+		})
+	</script>
+</html>

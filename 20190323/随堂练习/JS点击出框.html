@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>点击出隐藏</title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			body
+			{
+				width: 100%;
+				height: 100%;
+				display: flex;
+			}
+			#div1
+			{
+			width: 300px;
+			height: 900px;
+			background-color: #00FFFF;
+			display: none;	
+			
+			}
+			#div2
+			{
+				width: 100%;
+				height: 900px;
+				background-color: #7FFF00;
+			}
+			input
+			{
+				width: 100px;
+				height: 50px;
+			}
+			input[value="查看"]
+			{
+				color: #7FFF00;
+				font-size: 25px;
+			}
+		</style>
+		<script type="text/javascript" src="../../js/jquery.js"></script>
+	</head>
+	<body>
+		<div id="div1">
+			
+		</div>
+		<div id="div2">
+			<form>
+				<label>
+				<input type="button" value="查看" id="input1">
+			</form>
+		</div>
+	</body>
+	<script>
+		$(function(){
+			$("#input1").click(function(){
+				$("#div1").toggle(500)
+			})
+		})
+	</script>
+</html>

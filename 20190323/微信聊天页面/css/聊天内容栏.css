@@ -1,0 +1,77 @@
+#div4/*聊天区页面背景*/
+{
+	width: 100%;
+	height: 100%;
+	flex: 1;
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	overflow: scroll;
+}
+.div4-1/*聊天区第一条*/
+{
+	width: 100%;
+	height: 59px;
+	/*background-color: aqua;*/
+	display: flex;
+	border-bottom: 1px solid #808080;
+}
+.div4-1-1/*第一条里的左边盒子*/
+{
+	width: 20%;
+	height: 59px;
+	/*background-color: aquamarine;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.div4-1-1 img/*第一条里的左边盒子的头像*/
+{
+	width: 81%;
+	height: 91%;
+}
+.div4-1-2/*第一条里的中间盒子*/
+{
+	width: 60%;
+	height: 59px;
+	/*background-color: burlywood;*/
+	display:flex;
+	flex-direction: column;
+}
+#div4-1-2-1/*中间盒子里的上标题*/
+{
+	width: 100%;
+	height: 60%;
+/*	background-color: blue;*/
+	display:flex;
+	align-items: center;
+}
+#div4-1-2-2/*中间盒子里的下文字*/
+{
+	width: 100%;
+	height: 40%;
+	/*background-color: crimson;*/
+	display:flex;
+	align-items: center;
+}
+#div4-1-2-2 span/*中间盒子下文字的格式*/
+{
+	color: #707070;
+	font-size: 13px;
+	margin-left: 3px;
+}
+.div4-1-3/*第一条右边的盒子*/
+{
+	width: 20%;
+	height: 59px;
+/*	background-color: chartreuse;*/
+	display: flex;
+	align-items: flex;
+	justify-content: flex-end;
+}
+.div4-1-3 span/*右边盒子里的文字*/
+{
+	color: darkgrey;
+	font-size: 13px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
