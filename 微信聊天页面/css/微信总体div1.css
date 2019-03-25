@@ -1,0 +1,74 @@
+*
+{
+	margin: 0;/*外边距为0*/
+	padding: 0;/*内边距为0*/
+}
+body
+{
+	width: 100%;
+	height: 100%;
+	position: fixed;/*混合定位*/
+	background-color: aliceblue;/*背景颜色*/
+}
+#div1{
+	width: 100%;
+	height: 100%;
+	display: flex;/*布局弹性盒子*/
+	flex-direction: column;/*主轴是列 垂直*/
+}
+#div9
+{
+	width: 150px;
+	height: 200px;
+	background-color: #424242;
+	position: absolute;
+	top: 75px;
+	right: 5px;
+	display: none;
+	border-radius: 3px;
+/*	border: 2px solid black;*/
+}
+.div9-1
+{
+	width: 100%;
+	height: 25%;
+	/*background-color: aqua;*/
+	display: flex;
+}
+.div9-1-1
+{
+	width: 40%;
+	height: 100%;
+/*	border:1px solid black;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.div9-1-2
+{
+	width:60%;
+	height: 100%;
+/*	border: 1px solid beige;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.div9-1-1 img
+{
+	width: 80%;
+	height: 80%;
+}
+.div9-1-2 span
+{
+	font-size: 20px;
+	color: white;
+/*	font-weight: bold;*/
+}
+.none
+{
+	transform: display: none;
+}
+.block
+{
+	transform: display: block;
+}

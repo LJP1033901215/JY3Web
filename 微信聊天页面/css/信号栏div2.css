@@ -1,0 +1,78 @@
+#div2/*手机顶头信息栏*/
+{
+	width: 100%;
+	height: 25px;
+	background-color: black;
+	display: flex;
+	/*display: none;*/
+	/*position: fixed;
+	top:0px;*/
+}
+#div2-1/*顶头第一个模块-信号.*/
+{
+	width: 40%;
+	height: 25px;
+	/*background-color: black;*/
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+}
+.div2-1-1/*信号圆圈-实心*/
+{
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	border: 1px solid white;
+	background-color: white;
+}
+.div2-1-2/*信号圆圈-空心*/
+{
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	border: 1px solid white;
+	}
+#div2-1 span/*中国移动*/
+{
+	color: white;
+	font-size: 15px;
+	margin-left: 4px;/*增加左边外边距实现位移*/
+	/*position: absolute;
+	left: 2px;*/
+}
+#div2-1 img/*WIFI图片*/
+{
+	width:21px;
+	height: 22px;
+	margin-left: 4px; /*增加左边外边距实现位移*/
+}
+#div2-2/*顶头第二个模块*/
+{
+	width: 20%;
+	height: 25px;
+	/*background-color: aqua;*/
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+#div2-2 span
+{
+	color: white;
+}
+#div2-3/*顶头第三个模块*/
+{
+	width: 40%;
+	height: 25px;
+	/*background-color: black;*/
+	display: flex;
+	justify-content:flex-end;
+	align-items: center;
+}
+.div2-3-1 img
+{
+	width: 20px;
+	height: 20px;
+	margin-right: 4px;
+	
+}
+
