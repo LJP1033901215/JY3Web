@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>JQuery常见方法</title>
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+		<style>
+			.class
+			{
+				border: 10px solid black;
+			}
+		</style>
+	</head>
+	<body>
+		<!--<table border="1px">
+			<tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<td>4</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>6</td>
+				<td>7</td>
+				<td>8</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<td>4</td>
+			</tr>-->
+			<div id="div1">
+				<p>天气</p>
+			</div>
+			<div>
+				<p>还不错</p>
+			</div>
+		</table>
+		
+		
+		
+		<script>
+			$(function(){
+//				$("tr:even").css("background-color","blue");
+				//偶数行变换颜色
+				
+				$("#div1").css("width","100px");
+				$("#div1").css("height","100px");
+				$("#div1").css("background-color","dodgerblue");
+				//css（"属性"，"属性值"）
+				//alert("这是一个弹窗")
+				//alert弹窗
+				$("#div1").addClass("class")
+				//类选择器
+				$("#div1").next().css("width","50px");
+				$("#div1").next().css("height","50px");
+				$("#div1").next().css("background-color","red");
+				//相邻兄弟选择器
+				alert($("#div1").html());
+			})
+		</script>
+	</body>
+</html>

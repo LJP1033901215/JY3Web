@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>添加节点</title>
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+		<style>
+			.imgs
+			{
+				width: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div1">
+			
+		</div>
+		<button id="btn1">点击发送</button>
+		
+		<script>
+			$(function(){
+				$("#div1").css({"width":"400px","height":"400px","border":"1px solid black","display":"flex","flex-direction":"column"});
+				$("#btn1").css({"position":"absolute","top":"400px"});
+				$("#btn1").click(function(){
+					$("#div1").append("<img src='../img/王思聪头像.jpg' class='imgs' /><span>去打牌？</span>")
+					
+					
+					
+				})
+			})
+//				$("#div1").html("<img src='../img/王思聪头像.jpg'/>");
+			
+		</script>
+	</body>
+</html>

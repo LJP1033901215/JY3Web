@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>点击出效果练习</title>
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<h2>什么是JQuery？</h2>
+		<p>解答：</p>
+		<p>JQuery是一个javaScript库</p>
+		<p>jQuery极大地简化了 JavaScript编程</p>
+		<p+-*>
+		
+		<script>
+			$(function(){
+				$("p").css("display","none")
+			})
+			$(function(){
+				$("h2").click(function(){
+					$("p").toggle()
+				})
+			})
+		</script>
+	</body>
+</html>

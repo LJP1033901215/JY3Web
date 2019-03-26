@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>表格练习</title>
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<h1>
+			成绩单
+		</h1>
+		<table>
+			<!--<tr>
+				<td>学号</td><td>姓名</td><td>数学</td><td>英语</td>
+			</tr>
+			<tr>
+				<td>1</td><td>马云</td><td>9</td><td>150</td>
+			</tr>
+				<tr>
+				<td>1</td><td>马云</td><td>9</td><td>150</td>
+			</tr>
+				<tr>
+				<td>1</td><td>马云</td><td>9</td><td>150</td>
+			</tr>
+				<tr>
+				<td>1</td><td>马云</td><td>9</td><td>150</td>
+			</tr>
+				<tr>
+				<td>1</td><td>马云</td><td>9</td><td>150</td>
+			</tr>
+				<tr>
+				<td>1</td><td>马云</td><td>9</td><td>150</td>
+			</tr>
+				<tr>
+				<td>1</td><td>马云</td><td>9</td><td>150</td>
+			</tr>-->
+		</table>
+		
+		
+		<script>
+			$(function(){
+				$("table").append("<thead><th><td>学号</td><td>姓名</td><td>数学</td><td>英语</td></th></thead><tr><td>1</td><td>马云</td><td>9</td><td>150</td></tr><tr><td>1</td><td>马云</td><td>9</td><td>150</td></tr><tr><td>1</td><td>马云</td><td>9</td><td>150</td></tr><tr><td>1</td><td>马云</td><td>9</td><td>150</td></tr><tr><td>1</td><td>马云</td><td>9</td><td>150</td></tr><tr><td>1</td><td>马云</td><td>9</td><td>150</td></tr><tr><td>1</td><td>马云</td><td>9</td><td>150</td></tr>")
+				$("tr:first").css({"color":"red","font-size":"20px"});
+				$("tr:last").css("color","blue");
+				$("tr:even").css("background-color","#ffd");
+				$("tr:odd").css("background-color","#ddf");
+				$("tr:gt(4)").css("font-size","12px");
+				$("tr:lt(5)").css("font-size","14px");
+				$("h1").css("font-size","20px")
+			})
+			
+			
+		</script>
+	</body>
+</html>

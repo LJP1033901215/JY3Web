@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>JQuery选择器</title>
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+		<style>
+			.h2s
+			{
+				color: orangered;
+				
+			}
+		</style>
+	
+	</head>
+	
+	<body>
+		<h1>今天周二</h1>
+		<h1>今天周二</h1>
+		<h2 class="h2s">明天周三</h2>
+		<h2>明天周三</h2>
+		<ul>
+			<li>
+				<span>hello2</span>
+			</li>
+		</ul>
+		<div>
+			<span>hello</span>
+			<span>hello2</span>
+			<span>hello3</span>
+			<span>hello4</span>
+			<span>hello5</span>
+		</div>
+		
+		
+		
+		<script>
+//			$("h1,h2,div").css("color","#7FFF00")
+			//标签选择器.组合选择器
+//			$("div span").css("color","#FF4500")
+			//后代选择器
+			$("div span:last").css("color","#7FFF00")
+			//last最后一个  first第一个  even偶数所在元素    odd 奇数所在元素
+			
+		</script>
+	</body>
+</html>
