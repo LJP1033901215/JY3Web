@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+		<title>进入页面</title>
+	</head>
+	<style>
+		*
+		{
+			margin: 0;
+			padding: 0;
+		}
+		@-webkit-keyframes DH1{
+			0%
+			{
+				transform: scale(0)
+			}
+			100%
+			{
+				transform: scale(1)
+			}
+		}
+		@-webkit-keyframes DH2{
+			0%
+			{
+				top: 315;left: -60px;
+			}
+			100%
+			{
+				top: 315;left: 51px;
+			}
+		}
+		@-webkit-keyframes DH3{
+			0%
+			{
+				top: 315;left: -60px;
+			}
+			100%
+			{
+				top: 315;left: 187px;
+			}
+		}
+		@-webkit-keyframes DH4{
+			0%
+			{
+				top: 315;left: -60px;
+			}
+			100%
+			{
+				top: 315;left: 226px;
+			}
+		}
+		@-webkit-keyframes DH5{
+			0%
+			{
+				top: 315;left: -60px;
+			}
+			75%
+			{
+				top: 315;left: 290px;
+			}
+			100%
+			{
+				top: 315;left: 290px;/*transform: scale(1.7);*/
+			}
+		}
+		body
+		{
+			width: 100%;
+			height: 100%;
+			position: fixed;
+			/*background-color: #000000;*/
+
+		}
+		#div0
+		{
+			width: 100%;
+			height: 30%;
+			/*background-color: black;*/
+			display: flex;
+			justify-content: center;
+			align-content: center;
+			position: absolute;
+			top: 170px;
+		}
+		#div0 img
+		{
+			width: 60%;
+			height: 60%;
+			animation: DH1 5s ;
+		}
+		
+		
+		#div1 span
+		{
+			position: absolute;
+			font-size: 28px;
+			color: #FF0000;
+		}
+		#div1-1
+		{
+			position: absolute;
+			top: 315px;
+			left: 51px;
+			animation: DH2 2s;
+			/*background-color:black;*/
+		}
+		#div1-2
+		{
+			position: absolute;
+			top: 315px;
+			left: 187px;
+			animation: DH3 2s;
+		/*	background-color:black;*/
+		}
+		#div1-3
+		{
+			width: 60px;
+			height: 30px;
+			position: absolute;
+			top: 315px;
+			left: 226px;
+			animation: DH4 2s;
+		/*	background-color:black;*/
+		}
+		#div1-4
+		{
+			position: absolute;
+			top: 315px;
+			left:290px;
+			animation: DH5 2s;
+		/*	background-color:black;*/
+		}
+	</style>
+	<body>
+		<div id="div0">
+			<img src="http://pp07gw7wq.bkt.clouddn.com/logo.7515715.svg""/>
+		</div>
+		<div id="div1">
+			<div id="div1-1"><span>Welcome</span></div>
+			<div id="div1-2"><span>to</span></div>
+			<div id="div1-3"><span>睿乐</span></div>
+			<div id="div1-4"><span>GO</span></div>
+		</div>
+		
+		
+	</body>
+</html>

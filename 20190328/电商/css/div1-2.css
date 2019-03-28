@@ -1,0 +1,274 @@
+#div1/*这是第一行标题*/
+{
+	width: 100%;
+	height: 5%;
+	background-color: #E4E4E4;
+	display: flex;
+	font-size: 15px;
+	
+}
+.div1-1
+{
+	width: 25%;
+	height: 100%;
+	/*background-color: aquamarine;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.div1-1 a
+{
+	text-decoration: none;
+	color: #000000;
+}
+.div1-1 span:hover
+{
+	cursor: pointer;/*'改变光标'*/
+}
+.div1-1
+{
+	font-weight: bold;
+}
+#div1-2
+{
+	justify-content: flex-end;
+}
+#div2
+{
+	width: 100%;
+	height: 20%;
+/*	background-color: aqua;*/
+	display: flex;
+	background-image: linear-gradient(to top,rgb(255,255,255),#E4E4E4)
+}
+#div2-1
+{
+	width: 35%;
+	height: 100%;
+	/*background-color: chartreuse;*/
+	display: flex;
+	flex-direction: column;
+	border-right: 1px solid #D8D8D8;
+	
+}
+#div2-1-1
+{
+	width: 103%;
+	height: 64%;
+/*	background-color:aquamarine;*/
+	display: flex;
+	justify-content: center;
+	/*border-bottom: 1px solid #C8C8C8;*/
+	animation: DH1 10s/*绑定选择器*/ linear/*匀速*/ 0s/*延迟效果*/infinite /*可以用“3”代表播放次数*/
+				/*也可以用*//*alternate*//*逆向运行*/;
+}
+#div2-1-1 img
+{
+	width: 90%;
+}
+#div2-1-2
+{
+	width:100%;
+	height: 40%;
+	display: flex;
+	justify-content: center;
+/*	background-color:aquamarine;*/
+	align-items: center;
+}
+#div2-1-2 span
+{
+	color:#cccccc;
+	font-size: 17px;
+}
+#div2-1-2:hover span
+{
+	cursor: pointer;
+}
+#div2-1-2 img
+{
+	width: 26%;
+	height: 41%;
+}
+
+#div2-2
+{
+	width: 65%;
+	height: 100%;
+	/*background-color: burlywood;*/
+	display: flex;
+	flex-direction: column;
+}
+#div2-2-1
+{
+	width: 100%;
+	height: 40%;
+	/*background-color: aqua;*/
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+#div2-2-1 div
+{
+	width: 28px;
+	font-size: 20px;
+	font-weight:800;
+	display: flex;
+	position: relative;
+}
+#divd:nth-child(1)
+{
+	animation: DH2 5s/*绑定选择器*/ linear/*匀速*/ 1s/*延迟效果*/infinite /*可以用“3”代表播放次数*/
+	/*也可以用*/alternate/*逆向运行*/;
+}
+#divd:nth-child(2)
+{
+	animation: DH2 5s/*绑定选择器*/ linear/*匀速*/ 1.1s/*延迟效果*/infinite /*可以用“3”代表播放次数*/
+	/*也可以用*/alternate/*逆向运行*/;
+}
+#divd:nth-child(3)
+{
+	animation: DH2 5s/*绑定选择器*/ linear/*匀速*/ 1.2s/*延迟效果*/infinite /*可以用“3”代表播放次数*/
+	/*也可以用*/alternate/*逆向运行*/;
+}
+#divd:nth-child(4)
+{
+	animation: DH2 5s/*绑定选择器*/ linear/*匀速*/ 1.3s/*延迟效果*/infinite /*可以用“3”代表播放次数*/
+	/*也可以用*/alternate/*逆向运行*/;
+}
+#divd:nth-child(5)
+{
+	animation: DH2 5s/*绑定选择器*/ linear/*匀速*/ 1.4s/*延迟效果*/infinite /*可以用“3”代表播放次数*/
+	/*也可以用*/alternate/*逆向运行*/;
+}
+#divd:nth-child(6)
+{
+	animation: DH2 5s/*绑定选择器*/ linear/*匀速*/ 1.5s/*延迟效果*/infinite /*可以用“3”代表播放次数*/
+	/*也可以用*/alternate/*逆向运行*/;
+}
+#divd:nth-child(7)
+{
+	animation: DH2 5s/*绑定选择器*/ linear/*匀速*/ 1.6s/*延迟效果*/infinite /*可以用“3”代表播放次数*/
+	/*也可以用*/alternate/*逆向运行*/;
+}
+#divd:nth-child(8)
+{
+	animation: DH2 5s/*绑定选择器*/ linear/*匀速*/ 1.7s/*延迟效果*/infinite /*可以用“3”代表播放次数*/
+	/*也可以用*/alternate/*逆向运行*/;
+}
+#divd:nth-child(9)
+{
+	animation: DH2 5s/*绑定选择器*/ linear/*匀速*/ 1.8s/*延迟效果*/infinite /*可以用“3”代表播放次数*/
+	/*也可以用*/alternate/*逆向运行*/;
+}
+/*#div2-2-1 h2
+{
+	color: darkolivegreen;
+	font-size: 60px;
+}*/
+#div2-2-2
+{
+	width: 100%;
+	height: 30%;
+	/*background-color: blueviolet;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#div2-2-2 input[type="text"]
+{
+	width: 73%;
+	height: 60%;
+	border-radius: 8px;
+	border: 1px solid white;
+	text-indent: 8px;
+}
+#div2-2-2 input[placeholder="您想要找什么？"]
+{
+	font-size: 13px;
+}
+#div2-2-2 button
+{
+	width: 20%;
+	height: 60%;
+	background-color: #FF0000;
+	color: white;
+	border-radius: 5px;
+	border: 2px solid #FF0000;
+	font-size: 12px;
+	
+}
+#div2-2-3
+{
+	width: 100%;
+	height: 30%;
+	/*background-color: darkgreen;*/
+	display: flex;
+	align-items: center;
+}
+.div2-2-3-1
+{
+	width: 25%;
+	height: 50%;
+	/*background-color: #F4A460;*/
+	border-right: 2px solid #D8D8D8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.div2-2-3-1 span
+{
+	color: #A9A9A9;
+	font-size: 13px;
+}
+#div2-2-3-2
+{
+	border: none;
+}
+#div4
+{
+	width: 35%;
+	height: 230px;
+	background-color:white;
+	position: absolute;
+	z-index: 3;
+	border: 1px solid #E4E4E4;
+	border-radius: 0px 0px  20px 20px;
+	display: none;
+}
+ul
+{
+	list-style: none;
+	position: absolute;
+	top: 5px;
+	left: 4%;
+	transition: transform 2s,box-shadow 2s;
+	
+	
+}
+body:hover a
+{
+	text-decoration: none;
+	cursor: pointer; /*变换小手*/
+	/*transform: scale(1.2);*/
+
+}
+li:hover 
+{
+	color: white;
+	background-color: #000000;
+	transform: scale(1.2);
+	/*text-decoration: none;
+	cursor: pointer;*/
+
+}
+li
+{
+	width: 120px;
+	height: 30px;
+	/*background-color: #FF0000;*/
+	text-align: center;
+	margin-top: 5px;
+	line-height: 35px;
+	border-radius: 5px;
+	color: #000000;
+}

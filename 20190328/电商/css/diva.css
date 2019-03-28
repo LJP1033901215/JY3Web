@@ -1,0 +1,157 @@
+#diva
+{
+	width: 100%;
+	height: 75%;
+	flex: 1;
+	overflow: scroll;
+/*	background-color: #F4A460;*/
+   /* display: none;*/
+}
+
+#diva-1
+{
+	width: 100%;
+	height: 120px;
+	background-color: black;
+	margin-top: 0px;
+	display: flex;
+	
+}
+#carousel-example-generic img
+{
+	width: 100%;
+	height: 100%;
+}
+.carousel-indicators li
+{
+	z-index: 0;
+}
+#carousel-example-generic/*这是控制轮播图大小*/
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+#diva-2
+{
+	width: 100%;
+	height: 80px;
+	/*background-color: #000000;*/
+	display: flex;
+}
+.diva-2-1
+{
+	width: 20%;
+	height: 100%;
+	/*background-color: #E4E4E4;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.diva-2-1 img
+{
+	width: 70%;
+	height: 70%;
+}
+.diva-2-1 span
+{
+	color: cadetblue;
+	font-size: 12px;
+}
+#diva-3
+{
+	width: 100%;
+	height: 60px;
+	/*background-color:black;*/
+	margin-top: 5px;
+}
+#diva-3 img
+{
+	width: 100%;
+	height: 100%;
+}
+#diva-4
+{
+	width: 100%;
+	height: 330px;
+	/*background-color: #000000;*/
+	display: flex;
+	flex-direction: column;
+}
+.diva-4-1
+{
+	width: 100%;
+	height: 110px;
+	/*background-color: #F4A460;*/
+	display: flex;
+}
+.diva-4-1-1
+{
+	width:33.3%;
+	height: 100%;
+	/*background-color: aqua;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.diva-4-1-1 img
+{
+	width: 75%;
+	height: 75%;
+}
+.diva-4-1-1 span
+{
+	font-size: 12px;
+	color: coral;
+}
+#diva-5
+{
+	width: 100%;
+	height: 45px;
+	/*background-color: blue;*/
+}
+#diva-5 img
+{
+	width: 100%;
+	height: 100%;
+}
+#diva-6/*返回键*/
+{
+	/*background-color: #FF0000;*/
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	z-index: 1;
+	top: 550px;
+	right:10px;
+	animation: DH1 3s linear 0s infinite;
+}
+#diva-6 img
+{
+	width: 30px;
+	height: 30px;
+}
+#diva-6:hover
+{
+	cursor: pointer;/*改变光标*/
+}
+#diva-7
+{
+	width: 100%;
+	height: 8%;
+	background-color: #666666;
+	display: flex;
+	
+}
+.diva-7-1
+{
+	width: 25%;
+	height: 100%;
+	/*background-color: #FF6600;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+		<title></title>
+		<style>
+*{
+			margin: 0;
+			padding: 0;
+		}
+		body
+		{
+			width: 100%;
+			height: 100%;
+			position: fixed;
+		}
+		#diva/*总体*/
+		{
+			width: 100%;
+			height: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			align-content: space-between;
+		}
+		.diva-0/*×*/
+		{
+			width: 100%;
+			height: 10%;
+			display: flex;
+			justify-content: flex-end;
+		/*	background-color: #F4A460;*/
+		}
+		.diva-0 a
+		{
+			width: 40px;
+			height:60px;
+		}
+		.diva-0 img
+		{
+			width: 60%;
+			height: 60%;
+		}
+		#diva-1/*中间整体*/
+		{
+			width: 100%;
+			height: 60%;
+			/*background-color: aqua;*/
+		}
+		#diva-1-1/*logo*/
+		{
+			width: 100%;
+			height: 15%;
+			/*background-color: #A9A9A9;*/
+		}
+		#diva-1-1 img
+		{
+			width: 100%;
+			height: 100%;
+		}
+		.diva-1-2/*中间输入栏*/
+		{
+			width: 100%;
+			height: 14%;
+			/*background-color: #F4A460;*/
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		input[type="text"]/*输入框大小*/
+		{
+			width: 240px;
+			height: 25px;
+			margin-left: 20px;
+		}
+		#diva-1-3/*条件栏*/
+		{
+			width: 100%;
+			height: 5%;
+			/*background-color: beige;*/
+			display:flex;
+			justify-content: center;
+			align-items: center;
+		}
+		#diva-1-3 span
+		{
+			font-size: 12px;
+		}
+		#diva-1-3 input
+		{
+			margin-top: 4px;
+		}
+		#diva-1-4/*确定栏*/
+		{
+			width: 100%;
+			height: 15%;
+			/*background-color: brown;*/
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		input[type="button"]/*确定样式*/
+		{
+			width: 130px;
+			height: 40px;
+			background-color: #FF0000;
+			border: 1px solid #FF0000;
+			font-size: 25px;
+			color: white;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="diva">
+			<div class="diva-0">
+				<a href="睿乐GO电商主页面.html"><img src="http://pp07gw7wq.bkt.clouddn.com/%E9%94%99.svg"/>
+				</a></div>
+			<div id="diva-1">
+				<div id="diva-1-1">
+					<img src="http://pp07gw7wq.bkt.clouddn.com/logo.7515715.svg" />
+				</div>
+				<div class="diva-1-2">
+					<span>手 &nbsp;机 &nbsp;号: </span>
+					<input type="text" placeholder="请输入您的手机号" />
+				</div>
+				<div class="diva-1-2">
+					<span>邮 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱: </span>
+					<input type="text" placeholder="请输入您的邮箱" />
+				</div>
+				<div class="diva-1-2">
+					<span>用 &nbsp;户 &nbsp;名: </span>
+					<input type="text" placeholder="请输入您的用户名" />
+				</div>
+				<div class="diva-1-2">
+					<span>密 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;码: </span>
+					<input type="text" placeholder="请输入您的密码" />
+				</div>
+				<div id="diva-1-3">
+					<input type="checkbox">
+					<span>注册账号即您同意遵守睿乐GO用户协议和隐私政策</span>
+				</div>
+				<div id="diva-1-4">
+					<a href="注册完成.html"><input type="button" value="确定"></a>
+				</div>
+			</div>
+			<div class="diva-0"></div>
+		</div>
+		<!--<script>
+			$(function(){
+				$("#input1").click(function(){
+					$("#")
+				})
+			})
+		</script>-->
+	</body>
+</html>
